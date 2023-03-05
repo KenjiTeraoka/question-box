@@ -30,8 +30,11 @@ export default function getQuestion() {
   return (
     <div>
       {posts.map((post) => (
-        <div key={post.question}>
-          <p>{post.question}</p>
+        <div key={post.question} className="flex">
+          <p className="flex items-end pb-1 text-xs text-gray-400">
+            {post.user}
+          </p>
+          <p className="ml-2 text-lg">{post.question}</p>
         </div>
       ))}
     </div>
