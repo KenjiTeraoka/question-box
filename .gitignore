@@ -40,3 +40,6 @@ yarn-error.log*
 
 # Dependency directories
 node_modules/
+
+#Firebase Admin SDKの秘密鍵
+questionbox-23293-firebase-adminsdk-30dtl-00239c560d.json
